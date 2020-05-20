@@ -1,0 +1,20 @@
+快速搭建vue脚手架项目：
+1.node需要在版本6.0以上，然后执行vue-cli全局安装，安装命令：npm i -g vue-cli；
+2.然后执行vue init <脚手架模板名称> <项目名称>；例如:vue init webpack my_vueCli；
+3.选择一系列的东西挑需要的下载...；
+4.下载完后用命令cd <你的项目名>,例如:cd my_vueCli；
+5.执行npm run dev；
+6.点击链接按住Ctrl+点击链接跳转到浏览器查看；
+7.
+
+	============================
+	
+		    成功！
+
+	============================
+8.less语法: 安装npm install less less-loader --save-dev；
+
+	    配置方法：https://blog.csdn.net/weixin_40776188/article/details/85067568?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
+	    
+9.axios配置流程:https://blog.csdn.net/James_liPeng/article/details/86137184
+		
