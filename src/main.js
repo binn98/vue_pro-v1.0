@@ -2,8 +2,10 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import extend from '@/components/vue_extend'
 import router from './router'
 import axios from 'axios'
+
 
 // axios.defaults.headers.post['Contenst-Type'] = 'application/json;'
 axios.defaults.headers.token ='1234545'; //定义请求头 
@@ -22,6 +24,7 @@ axios.interceptors.request.use(config=>{
 /* eslint-disable no-new */
 Vue.prototype.$axios = axios
 Vue.config.productionTip = false
+Vue.component('extend',extend)
 new Vue({
   el: '#app',
   router,

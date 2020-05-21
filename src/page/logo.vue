@@ -4,12 +4,18 @@
     <div class="btn">
       这是登录按钮
     </div>
+    <extend @pop="check"/>
   </div>
 </template>
 
 <script>
-export default {
 
+export default {
+ methods:{
+   check(e){
+     console.log(e);
+   }
+ }
 }
 </script>
 

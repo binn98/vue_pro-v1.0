@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Test from '@/components/test'
 import HelloWorld from '@/components/HelloWorld'
 import logo from '@/page/logo'
+import home from '@/page/home'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path:'/logo',
       name:'logo',
       component:logo
+    },
+    {
+      path:'/home',
+      name:'home',
+      component:home
     }
   ]
 })
