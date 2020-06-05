@@ -5,8 +5,25 @@ import App from './App'
 import extend from '@/components/vue_extend'
 import router from './router'
 import axios from 'axios'
-
-
+import store from '../store/index.js'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+router.beforeEach((to,from,next)=>{
+  let id = store.state.id
+ 
+  if(to.path == '/home'){
+    if(id!=null&&id!=undefined&&id!=''){
+      console.log(id);
+      next()
+    }else{
+      ElementUI.Message.error('请先登录');
+      router.replace('/logo')
+    }
+  }else{
+    next()
+  }
+})
+Vue.use(ElementUI)
 // axios.defaults.headers.post['Contenst-Type'] = 'application/json;'
 axios.defaults.headers.token ='1234545'; //定义请求头 
 //axios.defaults.baseURL = ''; //定义请求基准路径
@@ -26,8 +43,9 @@ Vue.prototype.$axios = axios
 Vue.config.productionTip = false
 Vue.component('extend',extend)
 new Vue({
-  el: '#app',
+  el: '#app', 
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

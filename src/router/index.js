@@ -4,6 +4,7 @@ import Test from '@/components/test'
 import HelloWorld from '@/components/HelloWorld'
 import logo from '@/page/logo'
 import home from '@/page/home'
+import admin from '@/page/admin'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path:'/home',
       name:'home',
       component:home
+    },
+    {
+      path:'/admin',
+      // redirect:'/admin',
+      component:admin
     }
   ]
 })
