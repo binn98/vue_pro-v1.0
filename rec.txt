@@ -1,20 +1,21 @@
-¿ìËÙ´î½¨vue½ÅÊÖ¼ÜÏîÄ¿£º
-1.nodeĞèÒªÔÚ°æ±¾6.0ÒÔÉÏ£¬È»ºóÖ´ĞĞvue-cliÈ«¾Ö°²×°£¬°²×°ÃüÁî£ºnpm i -g vue-cli£»
-2.È»ºóÖ´ĞĞvue init <½ÅÊÖ¼ÜÄ£°åÃû³Æ> <ÏîÄ¿Ãû³Æ>£»ÀıÈç:vue init webpack my_vueCli£»
-3.Ñ¡ÔñÒ»ÏµÁĞµÄ¶«Î÷ÌôĞèÒªµÄÏÂÔØ...£»
-4.ÏÂÔØÍêºóÓÃÃüÁîcd <ÄãµÄÏîÄ¿Ãû>,ÀıÈç:cd my_vueCli£»
-5.Ö´ĞĞnpm run dev£»
-6.µã»÷Á´½Ó°´×¡Ctrl+µã»÷Á´½ÓÌø×ªµ½ä¯ÀÀÆ÷²é¿´£»
+ï¿½ï¿½ï¿½Ù´î½¨vueï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+1.nodeï¿½ï¿½Òªï¿½Ú°æ±¾6.0ï¿½ï¿½ï¿½Ï£ï¿½È»ï¿½ï¿½Ö´ï¿½ï¿½vue-cliÈ«ï¿½Ö°ï¿½×°ï¿½ï¿½ï¿½ï¿½×°ï¿½ï¿½ï¿½î£ºnpm i -g vue-cliï¿½ï¿½
+2.È»ï¿½ï¿½Ö´ï¿½ï¿½vue init <ï¿½ï¿½ï¿½Ö¼ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> <ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:vue init webpack my_vueCliï¿½ï¿½
+3.Ñ¡ï¿½ï¿½Ò»Ïµï¿½ĞµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½...ï¿½ï¿½
+4.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cd <ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½>,ï¿½ï¿½ï¿½ï¿½:cd my_vueCliï¿½ï¿½
+5.Ö´ï¿½ï¿½npm run devï¿½ï¿½
+6.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½×¡Ctrl+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¿´ï¿½ï¿½
 7.
 
 	============================
 	
-		    ³É¹¦£¡
+		    ï¿½É¹ï¿½ï¿½ï¿½
 
 	============================
-8.lessÓï·¨: °²×°npm install less less-loader --save-dev£»
+8.lessï¿½ï·¨: ï¿½ï¿½×°npm install less less-loader --save-devï¿½ï¿½
 
-	    ÅäÖÃ·½·¨£ºhttps://blog.csdn.net/weixin_40776188/article/details/85067568?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
+	    ï¿½ï¿½ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½https://blog.csdn.net/weixin_40776188/article/details/85067568?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
 	    
-9.axiosÅäÖÃÁ÷³Ì:https://blog.csdn.net/James_liPeng/article/details/86137184
+9.axiosï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:https://blog.csdn.net/James_liPeng/article/details/86137184
 		
+10.æ·˜å®é•œåƒgitï¼šhttps://npm.taobao.org/mirrors/git-for-windows/
